@@ -12,6 +12,7 @@ class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Main View"
         // Do any additional setup after loading the view.
     }
 
