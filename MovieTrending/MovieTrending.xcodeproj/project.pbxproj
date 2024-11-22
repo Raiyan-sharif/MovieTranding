@@ -12,6 +12,8 @@
 		899E6DC22CEF349E00587928 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 899E6DC12CEF349E00587928 /* Base */; };
 		899E6DCC2CEF37AE00587928 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DCA2CEF37AE00587928 /* MainViewController.swift */; };
 		899E6DCD2CEF37AE00587928 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 899E6DCB2CEF37AE00587928 /* MainViewController.xib */; };
+		899E6DD72CF043EB00587928 /* MainViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DD62CF043EB00587928 /* MainViewController+TableView.swift */; };
+		899E6DD92CF05A3400587928 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DD82CF05A3400587928 /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		899E6DC32CEF349E00587928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		899E6DCA2CEF37AE00587928 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		899E6DCB2CEF37AE00587928 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		899E6DD62CF043EB00587928 /* MainViewController+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainViewController+TableView.swift"; sourceTree = "<group>"; };
+		899E6DD82CF05A3400587928 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,6 @@
 				899E6DD02CEF4D8A00587928 /* Controllers */,
 				899E6DCF2CEF4D7900587928 /* ViewModel */,
 				899E6DCE2CEF4D5E00587928 /* View */,
-				899E6DC92CEF376300587928 /* MainViewController */,
 				899E6DB52CEF349D00587928 /* AppDelegate.swift */,
 				899E6DC02CEF349E00587928 /* LaunchScreen.storyboard */,
 				899E6DC32CEF349E00587928 /* Info.plist */,
@@ -75,6 +78,7 @@
 			children = (
 				899E6DCA2CEF37AE00587928 /* MainViewController.swift */,
 				899E6DCB2CEF37AE00587928 /* MainViewController.xib */,
+				899E6DD62CF043EB00587928 /* MainViewController+TableView.swift */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -89,6 +93,7 @@
 		899E6DCF2CEF4D7900587928 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				899E6DD82CF05A3400587928 /* MainViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 		899E6DD02CEF4D8A00587928 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				899E6DC92CEF376300587928 /* MainViewController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -208,7 +214,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				899E6DB62CEF349D00587928 /* AppDelegate.swift in Sources */,
+				899E6DD72CF043EB00587928 /* MainViewController+TableView.swift in Sources */,
 				899E6DCC2CEF37AE00587928 /* MainViewController.swift in Sources */,
+				899E6DD92CF05A3400587928 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

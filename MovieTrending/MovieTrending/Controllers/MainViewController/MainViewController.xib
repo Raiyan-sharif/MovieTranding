@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="MovieTrending" customModuleProvider="target">
             <connections>
+                <outlet property="tableView" destination="rxJ-VM-3Ih" id="Ghy-ki-ELE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,20 +20,20 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MainView Controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghy-5I-ToK">
-                    <rect key="frame" x="120" y="428" width="153" height="21"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rxJ-VM-3Ih">
+                    <rect key="frame" x="0.0" y="59" width="393" height="793"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="ghy-5I-ToK" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="9cN-rA-dJj"/>
-                <constraint firstItem="ghy-5I-ToK" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="cmm-Jf-uOz"/>
+                <constraint firstItem="rxJ-VM-3Ih" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="8Ky-UZ-Yop"/>
+                <constraint firstItem="rxJ-VM-3Ih" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GlP-vt-0ca"/>
+                <constraint firstItem="rxJ-VM-3Ih" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="KEr-6e-ozP"/>
+                <constraint firstAttribute="bottom" secondItem="rxJ-VM-3Ih" secondAttribute="bottom" id="pvG-mb-ngU"/>
             </constraints>
-            <point key="canvasLocation" x="140" y="20"/>
+            <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
         </view>
     </objects>
     <resources>

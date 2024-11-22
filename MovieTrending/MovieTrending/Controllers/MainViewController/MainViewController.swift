@@ -9,11 +9,24 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    //MARK: - IBOutlets:
+    @IBOutlet weak var tableView: UITableView!
+
+    //MARK: - ViewModel:
+    var viewModel: MainViewModel = MainViewModel()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+
+        configView()
+
+    }
+
+    func configView(){
         self.title = "Main View"
-        // Do any additional setup after loading the view.
+        self.view.backgroundColor = .red
+        setUpTableView()
     }
 
 
