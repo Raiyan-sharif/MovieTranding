@@ -26,7 +26,13 @@ class MainViewController: UIViewController {
     func configView(){
         self.title = "Main View"
         self.view.backgroundColor = .red
+        
         setUpTableView()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        viewModel.getData()
     }
 
 
