@@ -63,15 +63,16 @@ class MainViewController: UIViewController {
         }
     }
 
+    func openDetails(movieId: Int){
+        guard let movie = viewModel.retrieveMovie(with: movieId) else{
+            return
+        }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let detailsViewModel = DetailsMovieViewModel.init(movie: movie)
+        let detalViewController = DetailsMovieViewController(viewMode: detailsViewModel)
+        DispatchQueue.main.async {
+            self.navigationController?.pushViewController(detalViewController, animated: true)
+        }
     }
-    */
 
 }
