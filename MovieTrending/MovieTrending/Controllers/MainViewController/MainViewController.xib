@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="MovieTrending" customModuleProvider="target">
             <connections>
+                <outlet property="activityIndicator" destination="qB8-a1-EN8" id="9cI-Bm-byc"/>
                 <outlet property="tableView" destination="rxJ-VM-3Ih" id="Ghy-ki-ELE"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -24,13 +25,19 @@
                     <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                 </tableView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="qB8-a1-EN8">
+                    <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                    <color key="color" systemColor="systemGray2Color"/>
+                </activityIndicatorView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="rxJ-VM-3Ih" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="8Ky-UZ-Yop"/>
                 <constraint firstItem="rxJ-VM-3Ih" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GlP-vt-0ca"/>
+                <constraint firstItem="qB8-a1-EN8" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Hki-ZX-xBQ"/>
                 <constraint firstItem="rxJ-VM-3Ih" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="KEr-6e-ozP"/>
+                <constraint firstItem="qB8-a1-EN8" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="hPe-ge-bVM"/>
                 <constraint firstAttribute="bottom" secondItem="rxJ-VM-3Ih" secondAttribute="bottom" id="pvG-mb-ngU"/>
             </constraints>
             <point key="canvasLocation" x="139.69465648854961" y="19.718309859154932"/>
@@ -39,6 +46,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

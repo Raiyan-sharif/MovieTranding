@@ -17,6 +17,7 @@
 		899E6DDB2CF0886E00587928 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DDA2CF0886E00587928 /* NetworkConstants.swift */; };
 		899E6DDD2CF08B9F00587928 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DDC2CF08B9F00587928 /* APICaller.swift */; };
 		899E6DDF2CF08C4800587928 /* TrandingMoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DDE2CF08C4800587928 /* TrandingMoviesModel.swift */; };
+		899E6DE12CF09B9500587928 /* Obserable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E6DE02CF09B9500587928 /* Obserable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		899E6DDA2CF0886E00587928 /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
 		899E6DDC2CF08B9F00587928 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		899E6DDE2CF08C4800587928 /* TrandingMoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrandingMoviesModel.swift; sourceTree = "<group>"; };
+		899E6DE02CF09B9500587928 /* Obserable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obserable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		899E6DD32CEF52A200587928 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				899E6DE02CF09B9500587928 /* Obserable.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				899E6DB62CEF349D00587928 /* AppDelegate.swift in Sources */,
+				899E6DE12CF09B9500587928 /* Obserable.swift in Sources */,
 				899E6DDF2CF08C4800587928 /* TrandingMoviesModel.swift in Sources */,
 				899E6DDD2CF08B9F00587928 /* APICaller.swift in Sources */,
 				899E6DD72CF043EB00587928 /* MainViewController+TableView.swift in Sources */,
